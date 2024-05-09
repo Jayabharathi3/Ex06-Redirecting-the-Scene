@@ -18,10 +18,22 @@ Create a new 3D project.
 ### Step 5:
  Create a C# Script and name it as playercontroller and add the script to player.
 
-### Step 6: 
+### Step 6:
+Inside the "CubePlayer" script, import necessary Unity libraries. (i.e.,using UnityEngine; and using UnityEngine.SceneManagement;) 
+
+### Step 7:
 Use the R button to change the level2
 
-### Step 7 :
+### Step 8:
+Use 'SceneManager.LoadScene() method in the script to handle scene redirection.
+
+### Step 9:
+Attach the "SceneRedirector" script to an empty GameObject in your scene.
+
+### Step 10:
+Press the specified key (in this case, "R") to test redirection to the "Level2" scene.
+
+### Step 11:
 Print the Output and end the program.
 
 
